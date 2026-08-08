@@ -42,13 +42,13 @@
     border-bottom:1px solid var(--line);
   }
   .eyebrow{
-    font-size:12px; letter-spacing:0.35em; text-transform:uppercase;
-    color:var(--pink-soft); margin-bottom:18px; font-weight:600;
+    -size:12px; letter-spacing:0.35em; text-transform:uppercase;
+    color:var(--pink-soft); margin-bottom:18px; -weight:600;
   }
   .eyebrow::before{content:"● "; color:var(--pink);}
   h1{
-    font-family:'Anton', sans-serif;
-    font-size:clamp(40px, 8vw, 96px);
+    -family:'Anton', sans-serif;
+    -size:clamp(40px, 8vw, 96px);
     line-height:0.92;
     text-transform:uppercase;
     letter-spacing:0.01em;
@@ -59,17 +59,17 @@
   }
   .sub{
     margin-top:18px; max-width:560px;
-    color:var(--gray); font-size:16px; line-height:1.7;
+    color:var(--gray); -size:16px; line-height:1.7;
   }
   .strip{
     margin-top:36px; display:flex; gap:0; border:1px solid var(--line);
     border-radius:10px; overflow:hidden; width:fit-content;
   }
   .strip div{
-    padding:12px 22px; font-size:13px; color:var(--gray); border-right:1px solid var(--line);
+    padding:12px 22px; -size:13px; color:var(--gray); border-right:1px solid var(--line);
   }
   .strip div:last-child{border-right:none;}
-  .strip b{color:var(--white); font-weight:600;}
+  .strip b{color:var(--white); -weight:600;}
 
   /* ===== Controls ===== */
   .controls{
@@ -83,13 +83,13 @@
   .tabs{display:flex; gap:8px; flex-wrap:wrap;}
   .tab-btn{
     background:transparent; border:1px solid var(--line); color:var(--gray);
-    padding:10px 20px; border-radius:999px; font-family:'Prompt'; font-size:14px; font-weight:500;
+    padding:10px 20px; border-radius:999px; -family:'Prompt'; -size:14px; -weight:500;
     cursor:pointer; transition:all .2s ease; white-space:nowrap;
   }
   .tab-btn:hover{border-color:var(--pink-soft); color:var(--white);}
   .tab-btn.active{
     background:linear-gradient(135deg, var(--pink), var(--pink-deep));
-    border-color:transparent; color:#fff; font-weight:600;
+    border-color:transparent; color:#fff; -weight:600;
     box-shadow:0 0 24px rgba(255,45,120,0.35);
   }
   .gender-toggle{
@@ -289,7 +289,7 @@
   // ===== EDIT HERE: replace img with real screenshot URLs, and names with your studio's actual item names =====
   const catalog = [
     // ---- ทรงผม หญิง ----
-    {cat:'hair', gender:'female', name:'ทรงผมยาวลอน', tag:'Hair 01', img:''},
+    {cat:'hair', gender:'female', name:'Hair 01', tag:'Hair 01', img:'https://media.discordapp.net/attachments/1530711242463776768/1532710948710645991/50_2_1_1.png.Ho033eoXD7.png?ex=6a7863ce&is=6a77124e&hm=c685b123903771925339cb41661366238c8a0d333892686c40a305f4e857898a&=&format=webp&quality=lossless&width=1024&height=1024'},
     {cat:'hair', gender:'female', name:'ทรงหางม้าสูง', tag:'Hair 02', img:''},
     {cat:'hair', gender:'female', name:'ทรงบ๊อบสั้น', tag:'Hair 03', img:''},
     {cat:'hair', gender:'female', name:'ทรงเปียถัก', tag:'Hair 04', img:''},
